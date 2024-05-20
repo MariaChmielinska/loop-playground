@@ -21,6 +21,20 @@ for (let i=0;i<palabraDelDia.length;i++) {
     let siguienteLetraIntroducida = palabraIntroducida[i];
 
     // Tu código a partir de aquí, dentro del bucle
+    console.log(siguienteLetraIntroducida);
+    if(siguienteLetraCorrecta===siguienteLetraIntroducida){
+      
+        console.log("La letra", siguienteLetraIntroducida ,"es correcta");
+
+    }else if(!palabraDelDia.includes(siguienteLetraIntroducida)){
+        console.log("La letra", siguienteLetraIntroducida ,"no es correcta");
+        
+    } else if(palabraDelDia.includes(siguienteLetraIntroducida)) {
+        console.log("la letra ", siguienteLetraIntroducida, " es correcta, PERO se encuentra en una posición diferente")
+        
+    }
 }
+        
+
 
 // Resultado esperado: https://oscarm.tinytake.com/msc/ODc4MzY1N18yMjIwMzg5Mg

@@ -10,5 +10,15 @@
  */
 
 let mes = 4;
+let trimestre;
 
 // Escribir tu código a partir de aquí
+
+switch(mes){
+    case 1: 
+    case 2:
+    case 3:
+    case 4:
+    trimestre = "first"
+}
+console.log("We are in the", trimestre, "trimestre");

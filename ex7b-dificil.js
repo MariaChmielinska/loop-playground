@@ -11,7 +11,7 @@ for (let i = 1; i <= 10; i++) {
 // Mostrar la tabla de multiplicar del 4
 console.log("Tabla de multiplicar del 4:");
 for (let i = 1; i <= 10; i++) {
-    console.log("4 * " + i + " = " + 4 * i);
+    console.log("4 * ", i,  " = ", 4 * i);
 }
 
 /**
@@ -23,4 +23,8 @@ for (let i = 1; i <= 10; i++) {
  */
 
 let tablaDel = 1;
-// for...
+
+console.log(`Tabla de multiplicar del ${tablaDel} `);
+for (let i = 1; i <= 10; i++) {
+ console.log(`${tablaDel} * ${i} = ${tablaDel * i} `);
+}
